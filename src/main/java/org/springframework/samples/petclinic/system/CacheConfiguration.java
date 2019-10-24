@@ -32,7 +32,7 @@ import javax.cache.configuration.MutableConfiguration;
 class CacheConfiguration {
 
     @Bean
-    public JCacheManagerCustomizer petclinicCacheConfigurationCustomizer() {
+    public JCacheManagerCustomizer pet_clinic_cache_configuration() {
         return cm -> {
             cm.createCache("vets", cacheConfiguration());
         };
